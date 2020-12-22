@@ -30,6 +30,5 @@ def sudoku(matrice):
                         matrice[y][x] = i
                         sudoku(matrice)
                         matrice[y][x] = 0
-                
                 return
     print(matrice)
